@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "YesevaOne";
+  src: url('YesevaOne-Regular.ttf');
+  font-size: medium;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: "Josefin";
+  src: url('JosefinSans-VariableFont_wght.ttf');
+  font-size: medium;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.fullscreen {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+body {
+font-family: Josefin;
+}
+
+
+.header {
+  font-family: YesevaOne;
+  src: url(YesevaOne-Regular.ttf);
+  position: relative;
+  text-align: center;
+  color: white
+}
+
+.image_dimensions {
+  width: 100%;
+  height: 50vh;
+  object-position: top;
+}
+
+.wrapper
+{
+    border-radius: 15px;
+    width: 100%;
+    height: 150%;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 2px solid #000;
+    padding: 5px;
+}
+
+.wrapper_para
+{
+  background-color: #7FBD68;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.wrapper_para2
+{
+  background-color: #edc9b1;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.header a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height:10px;
+  border-radius: 10px;
+}
+
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+.header a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  height: 10px;
+}
+
+.header-right {
+  position: absolute;
+  top: 8px;
+ }
+ 
+.heading-style-1 {
+  color: black;
+  padding: 20;
+  position: static;
+  text-align: center;
+  font-size: 25px;
+  line-height: 100px;
+}
+
+.heading-style-2 {
+  margin-left: 30px;
+  padding: 20;
+  position: static;
+  text-align: left;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.heading-style-3 {
+  color: white;
+  padding: 20;
+  position: static;
+  text-align: center;
+  font-size: 25px;
+  line-height: 100px;
+}
+
+.paragraph-style-1 {
+  color: black;
+  line-height: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: left;
+  position:static;
+  font-size: 25px;
+}
+
+.paragraph-style-2 {
+  color: white;
+  line-height: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: left;
+  position:static;
+  font-size: 25px;
+}
