@@ -47,10 +47,27 @@ font-family: Josefin;
   color: white
 }
 
+.image_fix {
+  border-radius: 500px;
+  width: 150px;
+}
+
+.image_fill {
+  width: 100%;
+
+}
 .image_dimensions {
   width: 100%;
   height: 50vh;
   object-position: top;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 .wrapper
